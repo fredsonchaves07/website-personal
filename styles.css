@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: ;
+}
+
+header a {
+    text-decoration: none;
+}
