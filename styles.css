@@ -37,7 +37,7 @@ header a + a{
 
 .perfil img{
     border-radius: 50%;
-    width: 320px;
+    width: 300px;
     border: 8px solid #7401DF;
 }
 
@@ -55,5 +55,13 @@ header a + a{
 .perfil p{
     color: whitesmoke;
     font-size: 20px;
+    margin-top: 25px;
+}
+
+.social-links img{
+    border-radius: 0%;
+    border: none;
+    width: 30px;
     margin-top: 15px;
+    margin-left: 15px;
 }
