@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap');
 
 *{
     margin: 0;
@@ -8,9 +8,52 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    color: ;
+    background-color: #0B0B3B;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+    margin-top: 12px;
 }
 
 header a {
     text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+}
+
+header a + a{
+    margin-left: 30px;
+}
+
+.perfil{
+    text-align: center;
+    margin-top: 35px;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.perfil img{
+    border-radius: 50%;
+    width: 320px;
+    border: 8px solid #7401DF;
+}
+
+.perfil h1{
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.perfil h2{
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.perfil p{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 15px;
 }
