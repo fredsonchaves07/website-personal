@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    background-color: #0B0B3B;
+    background-color: #100719;
 }
 
 header{
@@ -38,7 +38,7 @@ header a + a{
 .perfil img{
     border-radius: 50%;
     width: 300px;
-    border: 8px solid #7401DF;
+    border: 8px solid #58ACFA;
 }
 
 .perfil h1{
@@ -58,10 +58,22 @@ header a + a{
     margin-top: 25px;
 }
 
+.social-links{
+    margin-top: 18px;
+}
+
+.social-links a{
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+}
+
+.social-links a + a{
+    margin-left: 15px;
+}
+
 .social-links img{
     border-radius: 0%;
     border: none;
-    width: 30px;
-    margin-top: 15px;
-    margin-left: 15px;
+    max-width: 30px;
 }
